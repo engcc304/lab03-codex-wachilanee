@@ -26,7 +26,7 @@ int main()
     TotalAmount = 0.0 ;
     for ( int i = 0 ; i < NumberOfItems; i++ ) {
         TotalPrice[i] = Quantity[i] * UnitPrice[i] ;
-        TotalAmount += TotalPrice[i] ;
+        TotalAmount =+ TotalPrice[i] ;
     }
     printf( "--------------------------------------------------------------\n" ) ;
     printf( "%-20s %11s %13s %17s\n", "Name", "Quantity", "Unit Price", "Total Price" ) ;
