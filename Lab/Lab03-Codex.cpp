@@ -5,9 +5,9 @@
 
 int main()
 {
-    char CustomerName[15], Name[10][15];
-    int Quantity[10], NumberOfItems, i;
-    float UnitPrice[10], TotalPrice[10], TotalAmount;
+    char CustomerName[15], Name[10][15] ;
+    int Quantity[10], NumberOfItems, i ;
+    float UnitPrice[10], TotalPrice[10], TotalAmount ;
 
     printf( "Enter customer name [QUIT to stop] : " ) ;
     scanf( "%s", CustomerName ) ;
