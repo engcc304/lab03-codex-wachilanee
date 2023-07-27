@@ -3,7 +3,7 @@
 #include <stdlib.h>
 #include <time.h>
 
-int main()
+void main(int)
 {
     char CustomerName[15], Name[10][15] ;
     int Quantity[10], NumberOfItems, i ;
