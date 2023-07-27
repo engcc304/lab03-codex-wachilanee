@@ -38,7 +38,7 @@ int main() {
         }
                     printf( "Enter customer name [QUIT to stop] : " ) ;
             scanf( "%s", CustomerName ) ;
-            printf( "%s", CustomerName ) ;
+
     }
     return 0 ;
 }
